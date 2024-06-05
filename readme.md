@@ -6,9 +6,9 @@ Have you been confused with all these technical terms about mobile specification
 Worry not! This web application called Phinder will do the work for you.\
 This web application is built to help find everyone the perfect choice of phone, regardless of whether they know about the specifications or not.\
 This web application will also compare the price of your phone on differet e-commerce platform such as Amazon, Flipkart and the company's official website to help you find the best deal.\
-In addition to all this, it will also help you keep up with the offeres going on Amazon and Flipkart.\
+In addition to all this, it will also help you keep up with the offeres going on Amazon and Flipkart.
 
-This project has 2 main folders:\
+This project has 2 main folders:
     1. Frontend(Client)
         - Built using React.
     2. Backend(Server)
