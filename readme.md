@@ -9,12 +9,12 @@ This web application will also compare the price of your phone on differet e-com
 In addition to all this, it will also help you keep up with the offeres going on Amazon and Flipkart.
 
 This project has 2 main folders:
-    1. Frontend(Client)
-        - Built using React.
-    2. Backend(Server)
-        - Built using express.js and node.js and the database is handeled by MongoDB.
-        - Data validation is done using joi. 
-    Overall this project is built using the MERN stack.
+1. Frontend(Client)
+    - Built using React.
+2. Backend(Server)
+    - Built using express.js and node.js and the database is handeled by MongoDB.
+    - Data validation is done using joi. 
+Overall this project is built using the MERN stack.
 
 Components:
 1. Landing page.
