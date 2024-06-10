@@ -8,13 +8,13 @@ This web application is built to help find everyone the perfect choice of phone,
 This web application will also compare the price of your phone on differet e-commerce platform such as Amazon, Flipkart and the company's official website to help you find the best deal.\
 In addition to all this, it will also help you keep up with the offeres going on Amazon and Flipkart.
 
-This project has 2 main folders:\
+This project has 2 main folders:
     1. Frontend(Client)
         - Built using React.
     2. Backend(Server)
         - Built using express.js and node.js and the database is handeled by MongoDB.
         - Data validation is done using joi. 
-    Overall this project is built using the MERN stack.\
+    Overall this project is built using the MERN stack.
 
 Components:
 1. Landing page.
