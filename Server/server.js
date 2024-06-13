@@ -1,9 +1,10 @@
+require('dotenv').config();
 const express = require("express");
 const app = express();
 const port = process.env.PORT || 3000
 
 // Connecting the dbConnect.js file 
-const connectDB = require('./connectDB');
+const connectDB = require("./connetDB");
 
 // Middleware for parsing JSON request body
 app.use(express.json());
