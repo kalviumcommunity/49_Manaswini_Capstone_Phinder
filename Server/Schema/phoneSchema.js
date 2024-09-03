@@ -23,13 +23,13 @@ const priceSchema = new mongoose.Schema({
 const nonTechSpecsSchema = new mongoose.Schema({
   videography: { type: Boolean, default: false },
   goodDisplay: { type: Boolean, default: false },
-  GoodBatteryLife: { type: Boolean, default: false },
+  goodBatteryLife: { type: Boolean, default: false },
   waterResistance: { type: Boolean, default: false },
-  GreatZoom: { type: Boolean, default: false },
-  NoteTakingWithSylus: { type: Boolean, default: false },
-  Multitasking: { type: Boolean, default: false },
-  FastCharging: { type: Boolean, default: false },
-  MemoryBackup: { type: Boolean, default: false },
+  greatZoom: { type: Boolean, default: false },
+  noteTakingWithSylus: { type: Boolean, default: false },
+  multitasking: { type: Boolean, default: false },
+  fastCharging: { type: Boolean, default: false },
+  memoryBackup: { type: Boolean, default: false },
 });
 
 const smartphoneSchema = new mongoose.Schema({
