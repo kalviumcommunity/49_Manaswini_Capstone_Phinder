@@ -23,5 +23,17 @@ router.get("/products", async (req, res) => {
 //     }
 // });
 
+
+//Updating the product - will be implemented late 
+// router.put('/smartphone/:id', async (req, res) => {
+//     try {
+//         const updatedSmartphone = await Smartphone.findByIdAndUpdate(req.params.id, req.body, { new: true });
+//         if (!updatedSmartphone) return res.status(404).json({ message: "Smartphone not found" });
+//         res.json(updatedSmartphone);
+//     } catch (error) {
+//         res.status(400).json({ message: error.message });
+//     }
+// });
+
 module.exports = router;
 
