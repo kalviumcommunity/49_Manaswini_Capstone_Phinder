@@ -14,6 +14,11 @@ const connectDB = require('./connectDB');
 // Middleware for parsing JSON request body
 app.use(express.json());
 
+//bodyParser.json() middleware will parse the JSON data and make it available as a JavaScript object in req.body
+const bodyParser = require("body-parser");
+// Applying bodyParser.json() globally
+app.use(bodyParser.json());
+
 //Middleware to set routers
 app.use("/api", productRouter);
 app.use("/api", userRouter);
