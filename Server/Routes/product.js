@@ -12,5 +12,16 @@ router.get("/products", async (req, res) => {
     }    
 })
 
+//Not required as of now but will see how to develop it later.
+// router.post('/smartphone', async (req, res) => {
+//     try {
+//         const smartphone = new Smartphone(req.body);
+//         const savedSmartphone = await smartphone.save();
+//         res.status(201).json(savedSmartphone);
+//     } catch (error) {
+//         res.status(400).json({ message: error.message });
+//     }
+// });
+
 module.exports = router;
 

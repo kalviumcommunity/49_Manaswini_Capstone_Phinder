@@ -12,4 +12,15 @@ router.get('/review', async (req, res) => {
     }
 });
 
+//Post a new review 
+router.post('/review', async (req, res) => {
+    try {
+        const review = new Review(req.body);
+        const savedReview = await review.save();
+        res.status(201).json(savedReview);
+    } catch (error) {
+        res.status(400).json({ message: error.message });
+    }
+});
+
 module.exports = router;
