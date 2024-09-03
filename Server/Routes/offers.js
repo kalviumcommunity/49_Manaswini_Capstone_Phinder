@@ -13,14 +13,14 @@ router.get('/offers', async (req, res) => {
 });
 
 //Post a new offer(Not required as of now)
-router.post('/offer', async (req, res) => {
-    try {
-        const offer = new Offer(req.body);
-        const savedOffer = await offer.save();
-        res.status(201).json(savedOffer);
-    } catch (error) {
-        res.status(400).json({ message: error.message });
-    }
-});
+// router.post('/offer', async (req, res) => {
+//     try {
+//         const offer = new Offer(req.body);
+//         const savedOffer = await offer.save();
+//         res.status(201).json(savedOffer);
+//     } catch (error) {
+//         res.status(400).json({ message: error.message });
+//     }
+// });
 
 module.exports = router;
