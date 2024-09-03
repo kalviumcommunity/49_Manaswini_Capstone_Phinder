@@ -23,4 +23,15 @@ router.post('/review', async (req, res) => {
     }
 });
 
+// PUT Request - Update an existing review
+router.put('/review/:id', async (req, res) => {
+    try {
+        const updatedReview = await Review.findByIdAndUpdate(req.params.id, req.body, { new: true });
+        if (!updatedReview) return res.status(404).json({ message: "Review not found" });
+        res.json(updatedReview);
+    } catch (error) {
+        res.status(400).json({ message: error.message });
+    }
+});
+
 module.exports = router;

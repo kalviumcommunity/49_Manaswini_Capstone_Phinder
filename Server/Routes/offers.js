@@ -23,4 +23,15 @@ router.get('/offers', async (req, res) => {
 //     }
 // });
 
+// PUT Request - Update an existing offer - will be implemented later
+// router.put('/offer/:id', async (req, res) => {
+//     try {
+//         const updatedOffer = await Offer.findByIdAndUpdate(req.params.id, req.body, { new: true });
+//         if (!updatedOffer) return res.status(404).json({ message: "Offer not found" });
+//         res.json(updatedOffer);
+//     } catch (error) {
+//         res.status(400).json({ message: error.message });
+//     }
+// });
+
 module.exports = router;
