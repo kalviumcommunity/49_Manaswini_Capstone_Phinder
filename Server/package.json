@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Phinder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalviumcommunity/49_Manaswini_Capstone_Phinder.git"
+  },
+  "keywords": [
+    "Phinder"
+  ],
+  "author": "Manaswini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kalviumcommunity/49_Manaswini_Capstone_Phinder/issues"
+  },
+  "homepage": "https://github.com/kalviumcommunity/49_Manaswini_Capstone_Phinder#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3",
+    "nodemon": "^3.1.7"
+  }
+}
