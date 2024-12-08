@@ -1,13 +1,7 @@
-
-module.exports = {
-  content: [
-    './src/pages/LandingPage.jsx',
-    './public/index.html',
-  ],
-  theme: {
-    fontFamily: {
-      'sans': ['Roboto', 'ui-sans-serif', 'system-ui'],
-    },
+/** @type {import('tailwindcss').Config} */
+export default {
+content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+theme: {
     extend: {},
   },
   plugins: [],
