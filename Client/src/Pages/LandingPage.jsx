@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
 import img1 from "../assets/header_img.png";
-// import "./styles/Landingpage.css";
 
 const LandingPage = () => {
   return (
